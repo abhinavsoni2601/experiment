@@ -1,0 +1,25 @@
+
+[{
+	"f_name": "Gourav",
+	"l_name": "Sharma",
+	"photo": "www.abc.co.in",
+	"Department": "CSE",
+	"Research_area": ["ML", "DL", "Math"],
+	"Con_detail": {
+		"phone": 999292299,
+		"fax": "asdad3ad",
+		"mail": "abc@gmial.com",
+		"addr": "123,str1,jaipur"
+	}
+},{
+	"f_name": "himanshu",
+	"l_name": "mathur",
+	"photo": "www.bcd.co.in",
+	"Department": "arts",
+	"Research_area": ["geography", "politics", "history"],
+	"Con_detail": {
+		"phone": 9993232323,
+		"fax": "asdasffad",
+		"mail": "bcedc@gmial.com",
+		"addr": "123,str1,jaief,pur"
+	}}]
