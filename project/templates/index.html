@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% block code %}
+    <h2 align="center">Please enter your data here.</h3>
+<br>
+
+    <form action="{{ url_for('output') }}" method="post">
+      A_Name_  *:<input  class="A" type="text" name="A_name_here" placeholder="A_name_here">
+      B_Name_*:<input class="B" type="text" name="B_name_here" placeholder="B_name_here" >
+      </br>
+      A_followers*:<input  class="A" type="text" name="A_follower_count" placeholder="A_follower_count">
+      B_followers*:<input class="B" type="text" name="B_follower_count" placeholder="B_follower_count" >
+      </br>
+      A_following*:<input type="text" class="A" name="A_following_count" placeholder="A_following_count">
+      B_following*:<input class="B" type="text" name="B_following_count" placeholder="B_following_count">
+      </br>
+      A's-_listed_:<input type="text" class="A" name="A_listed_count" placeholder="A_listed_count">
+      B's-_listed__:<input type="text" name="B_listed_count" placeholder="B_listed_count" class="B">
+      </br>
+      A_mentn_rec:<input type="text"  class="A" name="A_mentions_received" placeholder="A_mentions_received">
+      B_mentn_rec:<input type="text" name="B_mentions_received" placeholder="B_mentions_received" class="B">
+      </br>
+      A_retwt_rec:<input type="text" class="A" name="A_retweets_received" placeholder="A_retweets_received">
+      B_retwt_rec:<input type="text" name="B_retweets_received" placeholder="B_retweets_received" class="B">
+      </br>
+      A_mentn_snt:<input type="text" class="A" name="A_mentions_sent" placeholder="A_mentions_sent">
+      B_mentn_snt:<input type="text" name="B_mentions_sent" placeholder="B_mentions_sent" class="B">
+      </br>
+      A_retwt_snd:<input type="text" class="A" name="A_retweets_send" placeholder="A_retweets_send">
+      B_retwt_snd:<input type="text" name="B_retweets_send" placeholder="B_retweets_send" class="B"> 
+      </br>
+      A_post_cnts*:<input type="text" class="A" name="A_posts" placeholder="A_posts">
+      B_post_cnts*:<input type="text" name="B_posts" placeholder="B_posts" class="B">
+      </br>
+      A_network_1:<input type="text" class="A"  name="A_network_feature_1" placeholder="A_network_feature_1">
+      B_network_1:<input type="text" name="B_network_feature_1" placeholder="B_network_feature_1" class="B">
+      </br>
+      A_network_2:<input type="text" class="A" name="A_network_feature_2" placeholder="A_network_feature_2">
+      B_network_2:<input type="text" name="B_network_feature_2" placeholder="B_network_feature_2" class="B">
+      </br>
+      A_network_3:<input type="text" class="A" name="A_network_feature_3" placeholder="A_network_feature_3">
+      B_network_3:<input type="text" name="B_network_feature_3" placeholder="B_network_feature_3" class="B">
+      
+      <br><br>
+      <input class="but" type="submit" name="sub" value="Send">
+    </form>
+  {% endblock %}
